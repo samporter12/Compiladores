@@ -1,9 +1,13 @@
 # semantic_analyzer/SymbolTable.py
 
 class Symbol:
-    def __init__(self, name, type):
+    def __init__(self, name, type, category=None, params=None):
         self.name = name
+        # Para variables, 'type' es su tipo de dato.
+        # Para funciones, 'type' es su tipo de RETORNO.
         self.type = type
+        self.category = category  # 'variable' o 'function'
+        self.params = params if params is not None else [] # Lista de Símbolos de parámetros
 
 class SymbolTable:
     def __init__(self):

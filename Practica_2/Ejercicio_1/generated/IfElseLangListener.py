@@ -44,6 +44,42 @@ class IfElseLangListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by IfElseLangParser#returnStatement.
+    def enterReturnStatement(self, ctx:IfElseLangParser.ReturnStatementContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#returnStatement.
+    def exitReturnStatement(self, ctx:IfElseLangParser.ReturnStatementContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#functionDecl.
+    def enterFunctionDecl(self, ctx:IfElseLangParser.FunctionDeclContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#functionDecl.
+    def exitFunctionDecl(self, ctx:IfElseLangParser.FunctionDeclContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#param.
+    def enterParam(self, ctx:IfElseLangParser.ParamContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#param.
+    def exitParam(self, ctx:IfElseLangParser.ParamContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#paramList.
+    def enterParamList(self, ctx:IfElseLangParser.ParamListContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#paramList.
+    def exitParamList(self, ctx:IfElseLangParser.ParamListContext):
+        pass
+
+
     # Enter a parse tree produced by IfElseLangParser#assignment.
     def enterAssignment(self, ctx:IfElseLangParser.AssignmentContext):
         pass
@@ -98,6 +134,24 @@ class IfElseLangListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by IfElseLangParser#funcCallExpr.
+    def enterFuncCallExpr(self, ctx:IfElseLangParser.FuncCallExprContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#funcCallExpr.
+    def exitFuncCallExpr(self, ctx:IfElseLangParser.FuncCallExprContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#blockExpr.
+    def enterBlockExpr(self, ctx:IfElseLangParser.BlockExprContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#blockExpr.
+    def exitBlockExpr(self, ctx:IfElseLangParser.BlockExprContext):
+        pass
+
+
     # Enter a parse tree produced by IfElseLangParser#arithmeticExpr.
     def enterArithmeticExpr(self, ctx:IfElseLangParser.ArithmeticExprContext):
         pass
@@ -122,6 +176,24 @@ class IfElseLangListener(ParseTreeListener):
 
     # Exit a parse tree produced by IfElseLangParser#idExpr.
     def exitIdExpr(self, ctx:IfElseLangParser.IdExprContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#argList.
+    def enterArgList(self, ctx:IfElseLangParser.ArgListContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#argList.
+    def exitArgList(self, ctx:IfElseLangParser.ArgListContext):
+        pass
+
+
+    # Enter a parse tree produced by IfElseLangParser#block.
+    def enterBlock(self, ctx:IfElseLangParser.BlockContext):
+        pass
+
+    # Exit a parse tree produced by IfElseLangParser#block.
+    def exitBlock(self, ctx:IfElseLangParser.BlockContext):
         pass
 
 
